@@ -1,0 +1,44 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+p {
+    font-size: 24px;
+}
+
+.main {
+    height: 791px;
+    background-image: url("../images/storm_bg.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    -webkit-text-stroke-color: #555;
+    -webkit-text-stroke-width: 1px;
+}
+
+#countdown {
+    color: #fff;
+    font-size: 10vw;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 30px;
+    -webkit-text-stroke-color: #555;
+    -webkit-text-stroke-width: 2px;
+}
