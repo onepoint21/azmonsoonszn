@@ -25,5 +25,5 @@ function startCountdown(targetDate) {
 }
 
 // Set your target date
-const targetDate = new Date("June 15, 2025 12:00:00").getTime();
+const targetDate = new Date("June 15, 2025 00:00:00").getTime();
 startCountdown(targetDate);
