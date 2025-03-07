@@ -6,7 +6,7 @@ function startCountdown(targetDate) {
         const timeLeft = targetDate - now;
 
         if (timeLeft <= 0) {
-            document.getElementById("countdown").innerHTML = "Let's go!";
+            document.getElementById("countdown").innerHTML = "LET'S GO!";
             clearInterval(interval);
             return;
         }
